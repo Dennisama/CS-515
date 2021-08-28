@@ -1,0 +1,16 @@
+CS515 Assignment 1
+
+Name: Biao Zhang
+uid: 949069309
+Section: 01
+
+How many hours did you take to complete this assignment?
+6 hours.
+
+How difficult did you find this assignment from a scale of 0-10 where 10 represents the hardest?
+7
+
+What challenges did you encounter? And how did you address them?
+When I attempted to store the data into vector, only valid doubles are allowed
+to be stored into vector. It took me a lot of minutes to figure out how to recognize
+valid doubles. In the end, I used the self-defined is_double function to figure it out.

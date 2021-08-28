@@ -1,0 +1,15 @@
+CS515 Assignment 0
+
+Name: Biao Zhang
+uid: 949069309
+Section: 01
+
+How many hours did you take to complete this assignment?
+2 hours.
+
+How difficult did you find this assignment from a scale of 0-10 where 10 represents the hardest?
+6.
+
+What challenges did you encounter? And how did you address them?
+When your inputs are blanks, my codes should ignore them.
+I google the trim function in c++, it is quite helpful.
