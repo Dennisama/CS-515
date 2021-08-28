@@ -1,0 +1,48 @@
+CS515 Lab 8
+
+
+Name: Biao Zhang
+uid: 949069309
+Section: 01
+
+
+mysterySort1 is  Bubble Sort.
+Your evidence: Largest items "bubble up" to the top on each iteration. Another
+interesting property is that, if the array is already in descending, after largest
+items bubble up, the order of the rest items remain unchanged.
+
+mysterySort2 is Heap Sort.
+Your evidence: Largest items also "bubble up" to the top on each iteration. The
+difference with Bubble Sort is that, when the array is in the descending order, the
+order of other items change dramatically after the largest bubbles up. But if you draw
+a heap, you could see they descend "level by level", because they are built by a heap.
+
+mysterySort3 is Insertion Sort.
+Your evidence: The first few items in the array will be firstly ordered in ascending,
+but the minimum item is still hidden in the rest of array. Because insertion sort does
+comparison on each item and moves slowly.
+
+mysterySort4 is Quick Sort.
+Your evidence: After some tryouts, I found the pivot is the left-most number. After
+first iteration, it is moved to its correct position in the whole array. The left side
+are all elements smaller than the pivot, the right side are all elements greater than the
+pivot. Then it recurse the algorithm. This design is different with other sorting methods.
+
+mysterySort5 is Selection Sort.
+Your evidence: The smallest item in the (rest of) array is moved to the beginning in
+each iteration.
+
+
+
+——————————————————
+How many hours did you take to complete this assignment?
+4
+
+How difficult did you find this assignment from a scale of 0-10 where 10 represents the hardest?
+5
+
+What challenges did you encounter? And how did you address them?
+The erase part of Trie is a little confusing. If it expects to delete nodes each time, we need
+to track the parent information, as someone mentioned in the Piazza, we needed to delete from
+the leaf node to the top. But the professor said it just expected lazy deletion, which was easier to
+be implemented.
